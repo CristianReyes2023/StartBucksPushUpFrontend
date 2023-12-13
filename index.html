@@ -11,8 +11,7 @@
 </head>
 <body>
     <!--NAVBAR-->
-    <div class="circle">
-
+    <div id="circle" class="circle">
     </div>
     <nav id="mainBar" class="navbar">
         <div class="rightbar">
@@ -35,11 +34,13 @@
             <button id="close" class="menu2">Cerrar</button>
         </div>
     </div>
-    <main>
+    <main class="mainContainer">
         <div class="content">
             <div class="textBox">
-                <h2>It's not just Coffee<br>It's<span>StarBucks</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolorem a cupiditate ad quasi. Voluptatem assumenda accusantium non, maiores dignissimos quaerat laboriosam molestias earum, quas odit qui veniam, aspernatur fuga.</p>
+                <h2>It's not just Coffee<br>It's <span>StarBucks</span></h2>
+                <p>Since 1971, it always be about quality. We're passionate about it ethicaly
+                    sourcing only the finest Arabic coffe beans and roasting them with great care. Our passion
+                    for coffe is rivaled only by our love for sharing it</p>
                 <a href="#">Learn More</a>
             </div>
             <div id="mainstarbucks" class="imgBox">
@@ -47,9 +48,9 @@
             </div>
         </div>
         <ul class="thumb">
-            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png')"></li>
-            <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png')"></li>
-            <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png')"></li>
+            <li><img id="bebidaA" src="images/thumb1.png"></li>
+            <li><img id="bebidaB" src="images/thumb2.png"></li>
+            <li><img id="bebidaC" src="images/thumb3.png"></li>
         </ul>
         <ul class="social">
             <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
