@@ -59,12 +59,3 @@ colorc.addEventListener("click", function(){
 })
 
 ```
-## Título 2
-
-* Lista 1
-* Lista 2
-* Lista 3
-
-**Texto en negrita**
-
-*Texto en cursiva*

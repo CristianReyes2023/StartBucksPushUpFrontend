@@ -165,7 +165,7 @@ body {
     position: absolute;
     left: 50%;
     bottom: 0vw;
-    top: 520px;
+    top: 550px;
     transform: translateX(-50%);
     display: flex;
 }
