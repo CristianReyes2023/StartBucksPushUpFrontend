@@ -2,9 +2,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>StarBucks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" type="module" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
 </head>
 <body>
-    
+    <!--NAVBAR-->
+    <nav id="mainBar" class="navbar">
+        <div class="rightbar">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
+        </div>
+        <div class="leftbar">
+            <a class="menubar" href="index.html">Inicio</a>
+            <a class="menubar" href="https://www.starbucks.com.co/menu">Menu</a>
+            <a class="menubar" href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+            <a class="menubar" href="https://www.starbucks.com.co/stores">Contacto</a>
+            <button id="open" class="menu"><img src="images/menu2.png" alt=""></a></button>
+        </div>
+    </nav>
+    <div id="modal_container" class="popupmenu">
+        <div class="menuInterno">
+            <a class="menubar2" href="index.html">Inicio</a>
+            <a class="menubar2" href="https://www.starbucks.com.co/menu">Menu</a>
+            <a class="menubar2" href="https://www.starbucks.com.co/seccion/novedades">Novedades</a>
+            <a class="menubar2" href="https://www.starbucks.com.co/stores">Contacto</a>
+            <button id="close" class="menu2">Cerrar</button>
+        </div>
+    </div>
+    <main>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's<spam>StarBucks</spam></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolorem a cupiditate ad quasi. Voluptatem assumenda accusantium non, maiores dignissimos quaerat laboriosam molestias earum, quas odit qui veniam, aspernatur fuga.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="starbucks" alt="">
+            </div>
+        </div>
+    </main>
 </body>
 </html>
