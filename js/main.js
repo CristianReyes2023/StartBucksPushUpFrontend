@@ -9,3 +9,7 @@ open.addEventListener('click', () => {
 close.addEventListener('click', () => {
   modal_container.classList.remove('show');
 });
+
+function imgSlider(anything){
+  document.querySelector('.starbucks').src = anything;
+}

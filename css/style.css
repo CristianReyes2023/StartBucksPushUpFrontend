@@ -110,12 +110,98 @@ body {
 
 .content{
     position: relative;
-    width: 100%;
+    width: 80%;
+    margin: 0% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color: black;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: rgb(23, 109, 27);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox h2 p{
+    color: black;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 1vw;
+    padding: 1vw 2vw;
+    background-color: rgb(23, 109, 27);
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgBox{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3vw;
+    margin-top: 3vw;
+}
 
+.content .imgBox img{
+    max-width: 340px;
+}
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 0vw;
+    top: 65vw;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 2vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li img {
+    max-width: 50px;
+}
+.social{
+    position: absolute;
+    top: 50%;
+    right: 2vw;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social li{
+    list-style: none;
+}
+.social li a {
+    display:  inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+} 
+.circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(23, 109, 27);
+    clip-path: circle(600px at right 800px);
+}
 @media (max-width:1280px)
 {
     /* MAIN NAV BAR  */

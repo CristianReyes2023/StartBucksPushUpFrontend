@@ -11,6 +11,9 @@
 </head>
 <body>
     <!--NAVBAR-->
+    <div class="circle">
+
+    </div>
     <nav id="mainBar" class="navbar">
         <div class="rightbar">
             <a href="index.html"><img class="logo" src="images/logo.png" alt="Logo"></a>
@@ -35,14 +38,24 @@
     <main>
         <div class="content">
             <div class="textBox">
-                <h2>It's not just Coffee<br>It's<spam>StarBucks</spam></h2>
+                <h2>It's not just Coffee<br>It's<span>StarBucks</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolorem a cupiditate ad quasi. Voluptatem assumenda accusantium non, maiores dignissimos quaerat laboriosam molestias earum, quas odit qui veniam, aspernatur fuga.</p>
                 <a href="#">Learn More</a>
             </div>
-            <div class="imgBox">
-                <img src="images/img1.png" class="starbucks" alt="">
+            <div id="mainstarbucks" class="imgBox">
+                <img id="sliderimage" src="images/img1.png" class="starbucks" alt="">
             </div>
         </div>
+        <ul class="thumb">
+            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png')"></li>
+            <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png')"></li>
+            <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+        </ul>
     </main>
 </body>
 </html>
